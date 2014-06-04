@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Reg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/TV_RegUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="52dp"
+        android:text="@string/StringUserName" />
+
+    <EditText
+        android:id="@+id/ET_RegUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TV_RegUserName"
+        android:layout_alignBottom="@+id/TV_RegUserName"
+        android:layout_toRightOf="@+id/TV_RegUserName"
+        android:ems="10"
+        android:labelFor="@+id/ET_RegUserName"
+        android:inputType="none" />
+
+    <TextView
+        android:id="@+id/TV_RegEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ET_RegUserName"
+        android:layout_marginTop="21dp"
+        android:layout_toLeftOf="@+id/ET_RegUserName"
+        android:text="@string/StringEmail" />
+
+    <EditText
+        android:id="@+id/ET_RegEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TV_RegEmail"
+        android:layout_alignBottom="@+id/TV_RegEmail"
+        android:layout_alignLeft="@+id/ET_RegUserName"
+        android:ems="10"
+        android:labelFor="@+id/ET_RegEmail"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:id="@+id/TV_RegPassWord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ET_RegEmail"
+        android:layout_marginTop="22dp"
+        android:layout_toLeftOf="@+id/ET_RegEmail"
+        android:text="@string/StringPassWord" />
+
+    <EditText
+        android:id="@+id/ET_RegPassWord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TV_RegPassWord"
+        android:layout_alignBottom="@+id/TV_RegPassWord"
+        android:layout_alignLeft="@+id/ET_RegEmail"
+        android:labelFor="@+id/ET_RegPassWord"
+        android:ems="10"
+        android:inputType="textPassword" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/BT_Reg_do"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="56dp"
+        android:text="@string/StringReg" />
+
+</RelativeLayout>
