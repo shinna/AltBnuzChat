@@ -24,22 +24,24 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int BT_Login=0x7f080004;
-        public static final int BT_Reg=0x7f080006;
-        public static final int BT_Reg_do=0x7f08000e;
-        public static final int ET_PassWord=0x7f080003;
-        public static final int ET_RegEmail=0x7f08000b;
-        public static final int ET_RegPassWord=0x7f08000d;
-        public static final int ET_RegUserName=0x7f080009;
-        public static final int ET_UserName=0x7f080001;
-        public static final int Reg=0x7f080007;
-        public static final int TV_PassWord=0x7f080002;
-        public static final int TV_RegEmail=0x7f08000a;
-        public static final int TV_RegPassWord=0x7f08000c;
-        public static final int TV_RegTips=0x7f080005;
-        public static final int TV_RegUserName=0x7f080008;
-        public static final int TV_UserName=0x7f080000;
-        public static final int action_settings=0x7f08000f;
+        public static final int BT_Login=0x7f080006;
+        public static final int BT_Reg=0x7f080008;
+        public static final int BT_Reg_do=0x7f080010;
+        public static final int ET_PassWord=0x7f080005;
+        public static final int ET_RegEmail=0x7f08000d;
+        public static final int ET_RegPassWord=0x7f08000f;
+        public static final int ET_RegUserName=0x7f08000b;
+        public static final int ET_UserName=0x7f080003;
+        public static final int LV_FriendList=0x7f080001;
+        public static final int Reg=0x7f080009;
+        public static final int TV_PassWord=0x7f080004;
+        public static final int TV_RegEmail=0x7f08000c;
+        public static final int TV_RegPassWord=0x7f08000e;
+        public static final int TV_RegTips=0x7f080007;
+        public static final int TV_RegUserName=0x7f08000a;
+        public static final int TV_UserInfoShow=0x7f080000;
+        public static final int TV_UserName=0x7f080002;
+        public static final int action_settings=0x7f080011;
     }
     public static final class layout {
         public static final int activity_chatlist=0x7f030000;
@@ -47,12 +49,14 @@ public final class R {
         public static final int activity_reg=0x7f030002;
     }
     public static final class menu {
-        public static final int login=0x7f070000;
+        public static final int chatlist=0x7f070000;
+        public static final int login=0x7f070001;
     }
     public static final class string {
         public static final int StringConfirmPassWord=0x7f050007;
         public static final int StringEmail=0x7f050006;
         public static final int StringLogin=0x7f050002;
+        public static final int StringLogout=0x7f050009;
         public static final int StringPassWord=0x7f050005;
         public static final int StringReg=0x7f050003;
         public static final int StringRegTips=0x7f050008;

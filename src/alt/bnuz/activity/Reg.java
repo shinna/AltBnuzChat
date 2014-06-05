@@ -25,7 +25,7 @@ public class Reg extends Activity{
 	ET_RegEmail=(EditText)findViewById(R.id.ET_RegEmail);
 	BT_Reg_do=(Button)findViewById(R.id.BT_Reg_do);
 	App=(XMPPAction)getApplication();
-	
+
 	/*Ìí¼Ó×¢²á·½·¨*/
 	BT_Reg_do.setOnClickListener(new OnClickListener(){
 	    @Override
@@ -60,7 +60,7 @@ public class Reg extends Activity{
 	    Integer regRes=App.regist(RUserName, RPassWord, REmail);
 	    return regRes;
 	}
-	
+
 	@Override
 	protected void onPostExecute(Integer regRes){
 	    if(regRes==1){

@@ -10,4 +10,5 @@
 	<string name="StringEmail">邮箱</string>
 	<string name="StringConfirmPassWord">确认密码</string>
 	<string name="StringRegTips">还没账号?赶紧注册</string>
+	<string name="StringLogout">注销</string>
 </resources>

@@ -1,6 +1,4 @@
 package alt.bnuz.activity;
-
-
 import alt.bnuz.application.XMPPAction;
 import alt.bnuz.chat.R;
 import android.os.AsyncTask;
@@ -39,7 +37,7 @@ public class Login extends Activity {
 		}
 	    }
 	});
-	
+
 	/*添加注册按钮的Listener*/
 	BT_Reg.setOnClickListener(new OnClickListener(){
 	    @Override  
@@ -78,14 +76,15 @@ public class Login extends Activity {
 	    int loginRes=App.login(userName, passWord);
 	    return loginRes;
 	}
-	
-	
+
+
 	@Override
 	protected void onPostExecute(Integer loginRes) {
 	    if(loginRes==1){
 		/*如果登陆成功，跳转Activity*/
 		Toast.makeText(Login.this, "登陆成功!~", Toast.LENGTH_LONG).show();
-	    
+		Intent intent=new Intent(Login.this,ChatList.class);
+		startActivity(intent);
 	    }
 	    else{
 		/*登陆失败，弹出提示框*/
